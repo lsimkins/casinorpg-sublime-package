@@ -7,7 +7,7 @@
                 "ige.server",
                 "IgeEngine",
                 "IgeEntity",
-                "IgeObject"
+                "IgeObject",
                 "IgeClass",
                 "IgeUiEntity",
                 ".mount"

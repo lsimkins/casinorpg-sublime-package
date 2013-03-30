@@ -16,6 +16,6 @@
                 "crpg.backScene",
                 "crpg.miniGameScene",
                 "crpg.uiScene",
-                "crpg.vp",
+                "crpg.vp"
         ]
 }
