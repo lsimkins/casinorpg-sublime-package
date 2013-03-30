@@ -1,0 +1,25 @@
+<snippet>
+	<content>
+		<![CDATA[
+/**
+ * CasinoRPG (http://casinorpg.com)
+ * Copyright (c) 2012, GoldFire Studios, Inc.
+ * http://goldfirestudios.com
+ */
+
+/**
+ * ${1:Documentation}
+ * @type {${2:ClassName}}
+ */
+var ${2:ClassName} = ${3:ExtendsClass}.extend({
+  classId: '${2:ClassName}',
+
+  init: function(${4:params}) {
+
+  }
+});
+
+if (typeof(module) !== 'undefined' && typeof(module.exports) !== 'undefined') { module.exports = ${2:ClassName}; }
+]]></content>
+	<tabTrigger>newClass</tabTrigger>
+</snippet>

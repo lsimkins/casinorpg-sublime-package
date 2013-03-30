@@ -1,0 +1,26 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "CasinoRPG",
+			"description": "Custom CasinoRPG sublime package. Copyright (c) 2012, GoldFire Studios, Inc.",
+			"author": "lsimkins",
+			"homepage": "https://github.com/your_github_username/your_repository_name",
+			"last_modified": "2013-03-30 15:04:31",
+			"platforms": {
+				"osx": [
+					{
+						"version": "0.0.1",
+						"url": "https://github.com/lsimkins/casinorpg-sublime-package"
+					}
+				],
+				"linux": [
+					{
+						"version": "0.0.1",
+						"url": "https://github.com/lsimkins/casinorpg-sublime-package"
+					}
+				]
+			}
+		}
+	]
+}

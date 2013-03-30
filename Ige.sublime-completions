@@ -1,0 +1,15 @@
+{
+        "scope": "source.js",
+
+        "completions":
+        [
+                "ige.client",
+                "ige.server",
+                "IgeEngine",
+                "IgeEntity",
+                "IgeObject"
+                "IgeClass",
+                "IgeUiEntity",
+                ".mount"
+        ]
+}
