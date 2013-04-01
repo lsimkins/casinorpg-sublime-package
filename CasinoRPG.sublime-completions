@@ -3,11 +3,12 @@
 
         "completions":
         [
-                { "trigger": "GfModal", "contents": "GfModal(${1:width}, ${0:height});" },
-                { "trigger": "GfButton", "contents": "GfButton(${1:text}, ${0:options});" },
+                { "trigger": "GfModal", "contents": "GfModal(${1:width}, ${2:height});" },
+                { "trigger": "GfButton", "contents": "GfButton(${1:text}, ${2:options});" },
+                { "trigger": "GfTimer", "contents: GfTime(${1:time}, ${2:onTimeout}, ${3:isInterval}"},
                 {
-                  "trigger": "ige.client.requestServerAction",
-                  "contents": "ige.client.requestServerAction(${3:action}, ${2:data}, ${1:fn}, ${0:isGameAction})"
+                  "trigger": "req",
+                  "contents": "ige.client.requestServerAction(${1:action}, ${2:data}, ${3:fn}, ${4:isGameAction})"
                 },
 
                 "crpg.ui",
@@ -16,6 +17,10 @@
                 "crpg.backScene",
                 "crpg.miniGameScene",
                 "crpg.uiScene",
-                "crpg.vp"
+                "crpg.vp",
+
+                "TextEntity",
+
+                "ige.client.requestServerAction"
         ]
 }
